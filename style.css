@@ -1,6 +1,6 @@
 /* General */
 body {
-  font-family: 'Viner Hand ITC', 'Viner Hand ITC', sans-serif;
+  font-family: 'Viner Hand ITC', sans-serif;
   background-color: #4CBB17;
   color: #212923;
   margin: 0;
@@ -18,7 +18,7 @@ a:hover {
 
 /* Hero Section */
 .hero {
-  padding: 100px 20px;
+  padding: 10px 220px;
   background: linear-gradient(to right, #343a40, #495057);
   color: white;
   text-align: center;
