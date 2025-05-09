@@ -15,7 +15,39 @@ a {
 a:hover {
   color: #0056b3;
 }
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 100vh;
+  background-color: #212529;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
 
+.sidebar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.sidebar-nav a {
+  color: white;
+  text-decoration: none;
+  margin: 15px 0;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.sidebar-nav a:hover {
+  color: #4CBB17;
+}
 /* Hero Section */
 .hero {
   padding: 10px 220px;
