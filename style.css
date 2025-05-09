@@ -6,7 +6,44 @@ body {
   margin: 0;
   scroll-behavior: smooth;
 }
+.side-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  background-color: #4CBB17; /* Bright green */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
 
+.banner-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.banner-menu a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 20px 0;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.banner-menu a:hover {
+  color: #eaffea;
+}
+
+body {
+  margin-left: 200px; /* Push content to the right */
+}
 a {
   text-decoration: none;
   color: #007bff;
