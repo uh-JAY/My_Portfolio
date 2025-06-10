@@ -34,12 +34,13 @@ window.addEventListener('DOMContentLoaded', event => {
     // Add Typed.js initialization
     const typed = new Typed('#typed', {
         strings: [
-            'Software Engineer...',
-            'Full Stack Developer...',
-            'Machine Learning Engineer...'
+            'Business Analyst...',
+            'Data Analyst...',
+            'Data Engineer...',
+            'Product Analyst...'
         ],
-        typeSpeed: 50,
-        backSpeed: 30,
+        typeSpeed: 51,
+        backSpeed: 29,
         loop: true,
         backDelay: 2000,
         startDelay: 1000
