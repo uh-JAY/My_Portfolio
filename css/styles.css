@@ -10970,14 +10970,14 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
-.nyu-logo, .iiti-logo {
+.webster-logo, .gni-logo {
   height: 4rem; /* Set the height of the image */
   width: auto; /* Set a fixed width */
   object-fit: cover; /* This will crop the image to fit the container while maintaining aspect ratio */
   overflow: hidden; /* Ensure content that doesn't fit is hidden */
 }
 
-.iiti-logo {
+.gni-logo {
   max-width: 2.8rem; /* Set a maximum width to prevent it from being too wide */
 }
 
@@ -11108,12 +11108,12 @@ section.resume-section {
 }
 
 /* Education section */
-.nyu-logo, .iiti-logo {
+.webster-logo, .gni-logo {
   height: 3rem; /* Smaller on mobile */
 }
 
 @media (min-width: 768px) {
-  .nyu-logo, .iiti-logo {
+  .webster-logo, .gni-logo {
       height: 4rem;
   }
 }
